@@ -35,6 +35,9 @@
 </head>
 <body>
 <h1>자유게시판</h1>
+    <p>환영합니다, ${sessionScope.login.username}님!</p>
+<button type="button" onclick="location.href='../login/logout'">로그아웃</button>
+
 <table id="list" width="90%">
     <tr>
         <th>ID</th>
