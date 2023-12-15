@@ -7,7 +7,7 @@
     <title>Title</title>
 </head>
 <body>
-<form:form modelAttribute="u" method="POST" action="editok">
+<form:form modelAttribute="u" method="POST" action="../editok">
     <form:hidden path="seq" />
     <table id="edit">
         <tr><td>카테고리</td><td><form:input path="category" /></td></tr>
